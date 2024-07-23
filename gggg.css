@@ -1,0 +1,34 @@
+.menu-items{
+    padding: 0 4px;}
+    .menu-items{
+        display: inline-block;
+    background-color: chartreuse;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    font-size: 20px;
+    text-align: right;
+    border-radius: 20px;
+    border: 4px solid black;
+    /* делает оконтовку */
+}
+.position-img{
+    width: 74px;
+    height: 74px; 
+    border-radius: 12px;
+    background-color: #EFEFEF; 
+}
+.position-title{
+    color: #C4C4C4; 
+}
+.menu-position{
+    border: 1px solid black;
+    display: inline-block;
+}
+.menu-position:hover .position-img{
+    background-color: #EAE2B7; 
+}
+.menu-position:hover .position-title{
+    color: black;
+}
+

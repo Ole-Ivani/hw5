@@ -1,0 +1,62 @@
+* {
+    text-decoration: underline;
+}
+
+/* h3{ color: rgb(6, 6, 88);
+    background-color: aqua;
+} */
+
+p {
+    color: black;
+    background-color: rgb(92, 255, 125);
+}
+
+h3,
+h4 {
+    color: rgb(6, 6, 88);
+    background-color: aqua;
+}
+
+/*DRY*/
+
+h3,
+h4 {
+    color: rgb(254, 55, 5);
+}
+
+span {
+    color: blueviolet;
+}
+
+p span {
+    color: rgb(6, 255, 6);
+}
+
+header nav a {
+    background-color: aqua;
+}
+
+
+ #bottom{ color: black; background-color: blueviolet
+    }
+
+ .text-card{ background-color: blue
+    color(blueviolet);}
+
+.text-card.big{ font-size: 25px;}
+.big{font-size: 10px;}
+
+ ul li:first-child{ background-color: yellow;
+}
+ul li:last-child{ background-color: brown;
+}
+ul li:nth-child(3){ b}
+
+
+div + p { 
+
+
+    background-color: yellow;
+
+
+}
