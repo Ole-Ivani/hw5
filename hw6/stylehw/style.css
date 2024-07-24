@@ -22,7 +22,7 @@ button{
 
 .container{
     width: 360px;
-    height:800px ;
+    height:950px ;
     margin: 100px auto;
     border-radius: 20px;
     background-color: #FFF; 
@@ -42,6 +42,11 @@ form {
 }
 
 h1{font-weight: 600;}
+
+
+.Burger{ font-weight: 500;
+    color:rgba(0, 48, 73, 1) ;
+}
 
 .menu-items{
     padding: 0px 10px 0px -20px;
