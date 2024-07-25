@@ -1,0 +1,107 @@
+* {
+    
+    box-sizing: border-box;
+}
+ body{
+    background-color: rgb(202, 202, 202);
+ }
+
+
+
+
+
+
+.container{
+width: 512px;
+height: 512px;
+padding: 128.64px 101.28px 109px 101px;
+position: absolute;
+background-color: black;
+top: 0px;
+left: 0px;
+z-index: 3;
+margin: 0;
+text-align: center;
+}
+
+.flag{ 
+    width: 70px;
+    height: 30px;
+    border-radius: 6px 6px 0px 0px;
+    color: blue;
+    background-color: currentColor;
+     top: 40px;
+    left: 100px;
+    margin-top: 20px ;
+    position: relative;
+}
+
+   .flag2{ width: 70px;
+    height: 30px;
+   
+    border-radius: 0px 0px 6px 6px;
+    color:yellow;
+    background-color: currentColor;
+     top: 40px;
+    left: 100px;
+    position: relative;}
+  
+  
+
+
+
+.container2{width: 512px;
+    height: 512px;
+    padding: 128.64px 101.28px 109px 101px;
+    position: absolute;
+    top: 400px;
+    left: 450px;
+    background-color: blue;
+    z-index: 3;
+    margin: 0;
+    text-align: center;}
+
+.color1{
+    width: 512px;
+    height: 256px;
+    top: 260px;
+    left: 0px;
+    color:yellow;
+    background-color: currentColor;
+    position: absolute;
+  }
+
+  .img2{
+    position: absolute;
+    z-index: 4;
+    width: 512px;
+    height: 256px;
+    top: 140px;
+    left: 0px;
+  }
+
+.container3 { 
+    width: 444px;
+    height: 444px;
+    top: 800px;
+    left: 900px;
+  
+    background-color:yellow;
+    position: absolute;
+ border-radius: 100%;
+
+
+}
+  /* .color2{ width: 444px;
+    height: 444px;
+    top: 800px;
+    left: 900px;
+    
+    position: relative;
+  border-radius: 100%;
+  z-index: 4;
+  } */
+
+  
+
+  
