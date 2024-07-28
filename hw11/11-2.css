@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Catamaran", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
+  
+    background-color: #d2d5d5ba;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  main {
+    width: 1243px;
+    margin: 0 auto;
+    background-color: rgba(104, 172, 188, 0.168);
+    padding: 142px 0 128px;
+  }
+  
+  h1 > strong {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #2d3640;
+  }
+  h1 {
+    font-family: IBM Plex Sans;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #2d3640;
+  }
+  .sub-title-text {
+    font-family: IBM Plex Sans;
+    max-width: 695px;
+    color: #2b292d;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 50px;
+  }
+  .user-card {
+    /* ЯКЩО FLEX НЕ ВИВЧАЛИ */
+    display: inline;
+    padding: 58px 0 122px;
+    width: 295px;
+    background-color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 40px;
+    float: left;
+    margin-right: 20px;
+    border: 3px solid #eff3f8;
+  }
+  
+  /* Якщо потрібен марджин зліва то: (Але потім вони не стають в лінію там потрібно макет глянути) */
+  /* .card-row-clearfix .user-card:first-child {
+    margin-left: 20px;
+  } */
+  .card-row-clearfix .user-card:last-child {
+    margin-left: 20px;
+
+  }
+  .user-photo {
+    width: 114;
+    height: 114px;
+    overflow: hidden;
+    margin: 0;
+    margin-left: 85px;
+  }
+  .user-photo1 {
+    width: 50px;
+    height: 50px;
+    top: 298px;
+    left: 123px;
+    gap: 0px;
+    opacity: 0px;
+  
+    background-color: yellow;
+    border-radius: 100%;
+  }
+  
+  .user-photo0 {
+    width: 114;
+    height: 114px;
+    overflow: hidden;
+    margin: 0;
+    background-color: #ffffff;
+    border-radius: 100%;
+  }
+  
+  .card-row-clearfix {
+   
+    display: flex; */
+    gap: 20px;
+    justify-content: space-between;
+    /* Або ж використати інше вирівнювання */
+    /* /* justify-content: space-around;
+    /* ЦЕ ЩО  НИЖЧЕ МОЖНА ВИДАЛИТИ ЯКЩО ВИКОРИСТОВУВАТИ ФЛЕКС КРіМ *border-radius: 40px; */
+    justify-content: space-around;
+    border-radius: 40px;
+  }
+  .user-card > h4 {
+    font-family: Catamaran;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32.8px;
+    letter-spacing: -0.625px;
+    text-align: center;
+    margin: 34px 0 4px;
+  }
+  .user-card > p {
+    font-family: Catamaran;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.24px;
+    text-align: center;
+    margin-top: -12px;
+    margin-bottom: 33px;
+  }
+  
+  .slill-item {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+  
+    margin-right: 15px;
+    display: inline;
+  }
+  
+  .user-photo2 {
+    width: 50px;
+    height: 50px;
+    top: 298px;
+    left: 123px;
+    gap: 0px;
+    opacity: 0px;
+  
+    background-color: green;
+    border-radius: 100%;
+  }
+  .user-photo3 {
+    width: 50px;
+    height: 50px;
+    top: 298px;
+    left: 123px;
+    gap: 0px;
+    opacity: 0px;
+  
+    background-color: blue;
+    border-radius: 100%;
+  }
+  
+  .user-photo4 {
+    width: 50px;
+    height: 50px;
+    top: 298px;
+    left: 123px;
+    gap: 0px;
+    opacity: 0px;
+  
+    background-color: gray;
+    border-radius: 100%;
+  }
+  
+  .user-photo5 {
+    width: 50px;
+    height: 50px;
+    top: 298px;
+    left: 123px;
+    gap: 0px;
+    opacity: 0px;
+  
+    background-color: yellowgreen;
+    border-radius: 100%;
+  }
