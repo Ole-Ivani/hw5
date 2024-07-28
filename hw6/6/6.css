@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
 }
@@ -27,6 +28,7 @@ button{
     border-radius: 20px;
     background-color: #FFF; 
     padding: 56px 40px 40px 10px;
+
 }
 
 form {
@@ -38,13 +40,9 @@ form {
     margin: 44px auto;
     border-radius: 12px;
     background-color: rgba(239, 239, 239, 1); 
-    padding: 17px 24px 44px 24px; 
-    
+    padding: 17px 24px 44px 24px;
 }
 
-.Search {position: relative;
-   
-}
 h1{font-weight: 600;}
 
 
@@ -56,12 +54,8 @@ h1{font-weight: 600;}
 
 .menu-position{
     padding: auto;
- 
     display: inline-block;
-}
-
-.position-img3{
-     display: inline-block;
+    margin: 100px -10px 0px -10;
 }
 .position-img{
    
@@ -85,6 +79,13 @@ h1{font-weight: 600;}
 
 }
 
+.position-img3{
+    display: inline-block;
+}
+
+.title3{
+    display: inline-block
+}
 .position-title3{
    
        color: rgba(0, 0, 0, 1);
@@ -113,7 +114,12 @@ h1{font-weight: 600;}
 
 }
 
-.container6{
+.menu-position3{
     display: inline-block;
 }
+
+.position-img3{ display: inline-block;}
+
+
+
     
