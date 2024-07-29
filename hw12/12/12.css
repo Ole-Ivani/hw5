@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+.cvontainer{
+    /* width: 1234px; */
+   width: 65%;
+   /* max-width: 1234px; */
+   /* height: auto; */
+   min-width: 400px;
+   /* min-height: 400px; */
+   max-height: 200px;
+    margin: 0;padding: 100px;
+    background-color: yellow;
+}
