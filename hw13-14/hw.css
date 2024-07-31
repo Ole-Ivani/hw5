@@ -106,9 +106,9 @@ nav a.hover::after{
     width: 35%;  
 }
 .image-block img{
-    width: 130%;
+    width: 110%;
     margin: 40px 0;
-    height:90%;
+    height:80%;
 }
 .text-container{
     width: 100%;
