@@ -92,16 +92,23 @@ text-align: center;
 
 
 }
-  /* .color2{ width: 444px;
-    height: 444px;
-    top: 800px;
-    left: 900px;
-    
-    position: relative;
-  border-radius: 100%;
-  z-index: 4;
-  } */
-
+.kolo{
+  width: 512px;
+  height: 512px;
+  background-color: white;
+  margin-left: 765px;
+  margin-top: 370px;
+  text-align: center;
+}
   
+.img4{
+  width: 400px;
+  height: 300px;
+  top: 70px;
+  left: 40px;
+  position: absolute;
+
+
+}
 
   
