@@ -55,14 +55,17 @@ header{
 nav a:last-child{
     margin-right: 0;
 }
-nav a::after{
+nav a::after{  
+    font-weight: 700;
+    width: 100%;
    content:"" ;
    display: none;
    border-radius: 100%;
- background-color: orange ;
- position: absolute;
- margin: 0 56px;
- bottom: -16px;
+   background-color: orange ;
+    position: absolute;
+    margin: 0 56px;
+   bottom: -16px;
+   
 
 }
 
@@ -82,15 +85,17 @@ nav a.hover::after{
 }
 
 .search-block button{
-    background-color: wheat;
+    background-color: transparent;
     border: none;
 }
 .search-block input:focus-visible{
     outline: none;
 }
 /* .content */
+
 .content{
     padding: 110px 0 50px 0;
+
 }
 .content .container{
     display: flex;
@@ -101,16 +106,24 @@ nav a.hover::after{
     width: 35%;  
 }
 .image-block img{
-    width: 100%;
+    width: 130%;
+    margin: 40px 0;
+    height:90%;
 }
 .text-container{
-    width: 50%;
+    width: 100%;
+    margin-left: 10%;
 }
 .text-block{
-padding-right: 140px;
+padding-right: 40px; 
+margin-left: 89px;
+padding-right: 30px;
 border-right: 1px solad #333;
 margin-bottom: 32px;
 }
+
+
+
 .text-block h2{
     position: relative;
     font-size: 24px;
@@ -119,6 +132,7 @@ margin-bottom: 32px;
     letter-spacing: 1px;
     color: #f2994A;
     margin-bottom: 10px;
+    width: 100%;
 }
 .text-block h2::after{
     content:"+";
@@ -157,15 +171,18 @@ margin-bottom: 32px;
 .social{
     display: flex;
     justify-content: space-between;  
+    m
+
 }
 
 .video{
  display: flex;
  align-items: center;
-
+ margin:  0 0 0 100px;
 }
 
 .video button{
+
     width: 85px;
     height: 85px;
     display: flex;
@@ -174,7 +191,7 @@ margin-bottom: 32px;
     bottom: none;
     background-color:#3F9AB7;
     background-repeat: 100%;
-    margin-right: 20px;
+    margin-right: 40px;
     border-radius: 100%;
 
 }
@@ -222,33 +239,40 @@ margin-bottom: 32px;
   /* client */
   .client{
     background-color: #3F9AB7;
-    padding: 32px 0;
+    padding: 0px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+ 
 }
 .client-image{
     width: 55px;
     height: 55px;
-    border-radius: 100%;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
+    border-radius: 100%;  
+
 }
 
-.client-image-img{
-    width: 100%; 
-   
+
+.image1{
+margin-left: 5px;
+
+
+
 }
 
-.client-image-img:nth-child(2){
-left: -10px
-}
+.image2{
+    margin-left: -10px;
 
-.client-image-img:nth-child(3){
-    left: 30px
-     
     }
+    
+
+.image3{ 
+    margin-left: -20px;
+
+
+     }
+   
+    
 
 .client-info{
     color: #fff;
