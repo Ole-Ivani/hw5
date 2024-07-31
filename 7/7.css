@@ -24,7 +24,7 @@ button{
 
 .container{
     width: 360px;
-    height:950px ;
+    height:850px ;
     margin: 100px auto;
     border-radius: 20px;
     background-color: #FFF; 
@@ -63,11 +63,7 @@ h1{font-weight: 600;}
 
 }
 
-.d-flex-2{
-    text-align: left;
-   justify-content:between ;
-    justify-content: flex-start;
-}
+
 .position-img{
    margin: 0 10px;
   justify-content: center;
@@ -101,6 +97,7 @@ h1{font-weight: 600;}
    
        color: rgba(0, 0, 0, 1);
        font-weight: 500;
+      margin-left: 30px;
       text-align: right;
      
 
@@ -108,7 +105,7 @@ h1{font-weight: 600;}
 
 
 .position-title4{
-       
+
        color: rgba(214, 40, 40, 1);
        font-weight: 400;
  
@@ -118,17 +115,25 @@ h1{font-weight: 600;}
 
 .d-flex-2
 { justify-content: center;
-    margin-top: -40px;
+   margin-top: 20px;
     text-align: center;
     display:flex;
-    
+   
+ 
+}
+
+
+.d-flex-2{
+   
+    text-align: left;
+   justify-content:between ;
+    justify-content: flex-start;
 }
 
 .position-img3{
     display: flex;
-    align-items: center;
+  align-items: center;
 }
-
 
 
 
