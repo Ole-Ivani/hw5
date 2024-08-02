@@ -4,29 +4,34 @@
 
 body {
     font-family: "Inter", sans-serif;
-
+   margin: 0 auto;
 }
 
 .bg-image {
     background-image: url(./15img/Rectangle\ 1.png);
-    width: 1900px 100%;
-    height: 1117px 100%;
+    width:  100%;
+    height:  160%;
+    margin: 0 auto;
 
 }
 
 .w {
-    float: inline-end;
+      
     width: 50px;
     height: 50px;
     border-radius: 100%;
 }
 
 .container {
-    margin-left: 900px;
+    display: flex;
+    background-position: right top;
+
 }
 
 .image {
-
+     width: 35px;
+     height: 35px;
+      margin-right: 10px;
     background-color: transparent;
     border: none;
 }
@@ -36,15 +41,19 @@ body {
 }
 
 header {
-    margin-top: 20px;
+    padding-top: 20px;
     display: flex;
-    align-items: center;
+    align-items:normal;
+    justify-content: space-between;
 
+}
+.n{
+     margin-left: 30px;
 }
 
 .n:hover {
     background-color: red;
-    margin-left: 30px;
+   
 }
 
 .Friday {
@@ -59,6 +68,7 @@ header {
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     align-items: center;
+    background-position: left top;
 }
 
 .Drama {
@@ -112,7 +122,15 @@ p:nth-child(1) {
 .stars {
     margin-left: 30px;
     width: 150px;
+    color: #ffffff;
+   
 }
+
+.stars:hover{
+   color: yellow; 
+}
+
+
 
 .STREAM {
     width: 272px;
@@ -124,6 +142,10 @@ p:nth-child(1) {
     display: flex;
     align-items: center;
     text-align: center;
+}
+
+.STREAM:hover{
+    background-color: black;
 }
 
 .text4 {
@@ -144,6 +166,10 @@ p:nth-child(1) {
     align-items: center;
     text-align: center;
     border: 3px solid white;
+}
+
+.EPISODES:hover{
+    background-color: #ff0000;
 }
 
 .text5 {
@@ -207,13 +233,8 @@ p:nth-child(1) {
     width: 144px;
     height: 66px;
     margin-left: 1250px;
-    margin-top: 0px;
-    color: white;
     position: absolute;
     background-color: #a4a4a4;
-    margin-bottom: 100px;
-    display: flex;
-
 }
 
 .container3 {
@@ -223,10 +244,10 @@ p:nth-child(1) {
     color: white;
     font-size: medium;
     background-color: #ff0000;
-    position: relative;
+    position: fixeds;
     display: flex;
-
-    margin-bottom: 50px;
+  
+   
 }
 
 .text6 {
