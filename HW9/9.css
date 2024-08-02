@@ -83,14 +83,13 @@ text-align: center;
 .container3 { 
     width: 444px;
     height: 444px;
-    top: 800px;
-    left: 900px;
+    /* top: 800px;
+    left: 900px; */
   
     background-color:yellow;
-    position: absolute;
- border-radius: 100%;
-
-
+    position: relative;
+    border-radius: 100%;
+    margin: 50px auto;
 }
 .kolo{
   width: 512px;
@@ -99,6 +98,9 @@ text-align: center;
   margin-left: 765px;
   margin-top: 370px;
   text-align: center;
+  top: 412px;
+  left: 90px;
+  position: absolute;
 }
   
 .img4{
@@ -107,8 +109,8 @@ text-align: center;
   top: 70px;
   left: 40px;
   position: absolute;
-
-
+  border-top: 70px;
+  border-bottom: 50px;
 }
 
   
