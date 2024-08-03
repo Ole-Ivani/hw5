@@ -7,6 +7,11 @@ body {
    margin: 0 auto;
 }
 
+
+@media screen (max-width:900px) {
+
+}
+
 .bg-image {
     background-image: url(./15img/Rectangle\ 1.png);
     width:  100%;

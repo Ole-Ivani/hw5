@@ -1,0 +1,308 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+main{
+    width: 100%;
+   height: 100%;
+   overflow-block: scroll;
+
+}
+body {
+
+    font-family: "Montserrat", "sans-serif";
+}
+
+.header {
+    display: flex;
+    padding-left: 20px;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.Women {
+    display: flex;
+
+}
+
+
+h3 {
+    margin-left: 20px;
+}
+
+.Shoppy {
+    background-color: black;
+    margin-left: 30px;
+    width: 200px;
+    height: 30px;
+    color: white;
+    margin-top: 15px;
+}
+
+.container {
+    display: flex;
+    margin-left: 50%;
+    margin-top: 20px;
+
+}
+
+.Search {
+    background-color: transparent;
+    border: none;
+    display: flex;
+}
+
+.Search:hover {
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+
+.Bag {
+    background-color: transparent;
+    border: none;
+    display: flex;
+}
+
+.Bag:hover {
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+.image {
+    
+    margin: 0 auto;
+    margin-top: 0;
+  
+}
+
+.image2 {
+        position: absolute;
+         width: 381.99px;
+    height: 341.62px;
+    top: 169.39px;
+    left: 60%;
+    gap: 0px;
+    opacity: 0px;
+    angle: 171.52 deg;
+        
+    }
+    
+  
+    
+    .image5
+{
+    margin-left: 25%;
+}
+.image3{
+  
+     width: 599.82px;
+        height: 428.14px;
+        top: 179px;
+       left: 100%;
+        gap: 0px;
+        opacity: 0px;
+        angle: -5.89 deg;
+}
+
+.text{
+    width: 15%;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+h1{
+    font-weight: 800;
+    font-size: 60px;
+}
+
+span{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.SHOP{
+   border-radius: 15px;
+   background-color: black;
+   width: 195px;
+   height: 50px;
+   color: white;
+   margin-top: 30px;
+}
+
+.container2{
+    margin-top: 20%;
+    display: flex;
+}
+
+.image4{
+    margin-top: 30%;
+    display: inline-block;}
+
+
+
+
+
+
+.now{
+    background-color: transparent;
+   
+    width: 89px;
+ height: 38px;
+ border: none;
+ width: 100px;
+height: 38px;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+margin-top: 400px;
+margin-left: -10%;
+position: absolute;
+
+}
+
+.now2{
+    color: white; background-color: transparent;
+    width: 89px;
+ height: 38px;
+ border: none;
+ width: 100px;
+height: 38px;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+margin-top: 400px;
+margin-left: -50%;
+position: absolute;
+
+}
+
+
+
+.Women2{
+    color: white;
+
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 800;
+line-height: 40px;
+text-align: left;
+position: absolute;
+}
+.Men{
+    color: rgb(255, 255, 255);
+
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    text-align: right;
+    position: absolute;
+}
+
+h6{
+    font-family: Montserrat;
+font-size: 30px;
+font-weight: 800;
+line-height: 40px;
+text-align: left;
+
+}
+
+.block{
+ 
+    display: flex;
+    padding: auto;
+    display: inline-block;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.container3{
+    width: 120%;
+}
+
+.many{
+    display: inline-block;
+}
+
+.img{
+    width: 310px;
+   height: 250px;
+   
+
+}
+
+.img2{
+    width: 170px;
+    height: 250px;
+   
+}
+
+.Never{
+    flex-flow: wrap;
+   text-align: center;
+   margin-top: 10%;
+      
+}
+.JOIN{width: 235px;
+height: 55px;
+border: 2px 0px 0px 0px;
+background-color: transparent;
+margin-top: 2%;
+}
+
+footer{
+    margin-top: 13%;
+    background-color: black;
+    color: white;
+    width: 100%;
+   height: 285px;
+  
+}
+
+.ACCOUNT{
+     display: inline-block;
+     margin-left: 6%;
+   
+}
+
+.block2{
+    padding-top: 2%;
+    margin-left: 2%;
+}
+
+.my2{
+    color: rgb(150, 150, 150);
+}
+
+
+.FOLLOW{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+  border-radius: 100%;
+  text-align: center;
+ padding-top: 10px;
+ padding-left: 8px;
+  display: inline-flex;
+  margin-left: 10px;
+
+}
+
+.img3{
+    width: 25px;
+    height: 20px;
+
+}
+
+
+
+
+
