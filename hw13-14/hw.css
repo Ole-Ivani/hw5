@@ -9,7 +9,7 @@ body {
     font-size: 16px;
     background-color: white;
     position: relative;
-    /* padding-bottom: 45px; */
+    padding-bottom: 45px;
 }
 
 body::after {
@@ -27,7 +27,7 @@ body::after {
 
 .container {
     width: 82%;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 
 /* header */
@@ -40,7 +40,7 @@ header.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
 }
 
 @media(max-width: 950px) {
@@ -84,28 +84,29 @@ nav a {
     display: inline-block;
     position: relative;
     color: #000;
-    margin-right: 45px;
+    margin-right: 35px;
     font-size: 19px;
     line-height: 120%;
-    font-weight: 400px;
+    font-weight: 400;
     letter-spacing: 1px;
     font-family: "Nunito Sans";
-    align-content: center;
+    text-decoration: none;
 }
 
 nav a:last-child {
     margin-right: 0;
 }
 
-nav a::after {
-    font-weight: 700;
-    width: 100%;
-    content: "";
-    display: none;
+nav a::after { 
+     content: ""; 
+     display: none;
+    width: 7px;
+    height: 7px;
+     font-weight: 700;
     border-radius: 100%;
     background-color: orange;
     position: absolute;
-    margin: 0 56px;
+    margin: 0 50%;
     bottom: -16px;
 }
 
@@ -116,7 +117,7 @@ nav a.hover::after {
 
 .search-block input {
     font-size: 19px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 120%;
     letter-spacing: 1px;
     color: #000;
@@ -125,7 +126,7 @@ nav a.hover::after {
 }
 
 .search-block button {
-    background-color: transparent;
+    background-color: white;
     border: none;
 }
 
@@ -136,7 +137,7 @@ nav a.hover::after {
 /* .content */
 
 .content {
-    padding: 110px 0 50px 0;
+    padding: 110px 0 50px ;
 
 }
 
@@ -146,24 +147,26 @@ nav a.hover::after {
 }
 
 .image-block {
-    width: 35%;
+    width: 25%;
+    
 }
 
 .image-block img {
-    width: 110%;
-    /* margin: 40px 0; */
-    height: 80%;
+    width: 90%;
+    height: 70%;
+   
+
 }
 
 .text-container {
-    width: 100%;
-    margin-left: 10%;
+    width: 40%;
+   
 }
 
 .text-block {
-    width: 100%;
-    padding-right: 40px;
-    margin-left: 89px;
+    /* width: 100%; */
+    padding-right: 180px;
+
     padding-right: 30px;
     margin-bottom: 32px;
     border-right: 1px solid #333;
@@ -179,7 +182,7 @@ nav a.hover::after {
     letter-spacing: 1px;
     color: #f2994A;
     margin-bottom: 10px;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .text-block h2::after {
@@ -203,6 +206,7 @@ nav a.hover::after {
     line-height: 180%;
     letter-spacing: 1px;
     position: relative;
+    font-family: 'Roboto', sans-serif;
 }
 
 .text-block p::before {
@@ -228,7 +232,7 @@ nav a.hover::after {
 .video {
     display: flex;
     align-items: center;
-    margin: 0 0 0 100px;
+    /* margin: 0 0 0 100px; */
 }
 
 .video button {
@@ -240,7 +244,7 @@ nav a.hover::after {
     align-items: center;
     bottom: none;
     background-color: #3F9AB7;
-    background-repeat: 100%;
+    /* background-repeat: 100%; */
     margin-right: 40px;
     border-radius: 100%;
 
@@ -269,9 +273,13 @@ nav a.hover::after {
     border-radius: 100%;
     position: relative;
     text-align: center;
-    right: -10px;
+    right: -16px;
     margin-bottom: 8px;
     /* margin-left: 40px; */
+}
+
+.social-link-img-hover{
+    display: none;
 }
 
 .social-link a:hover {
@@ -290,12 +298,12 @@ nav a.hover::after {
 /* client */
 .client {
     background-color: #3F9AB7;
-    padding: 0px 0px;
+    padding: 32px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: none;
-    margin: 0 auto;
+    /* border: none;
+    margin: 0 auto; */
 
 }
 
@@ -303,14 +311,12 @@ nav a.hover::after {
     width: 55px;
     height: 55px;
     border-radius: 100%;
-
+    text-align: center;
 }
 
 
 .image1 {
     margin-left: 23px;
-
-
 
 }
 
@@ -319,11 +325,8 @@ nav a.hover::after {
 
 }
 
-
 .image3 {
     margin-left: -23px;
-
-
 }
 
 
