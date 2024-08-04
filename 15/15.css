@@ -240,20 +240,24 @@ p:nth-child(1) {
     width: 144px;
     height: 66px;
     margin-left: 1250px;
-    position: absolute;
+    position: fixed;
     background-color: #a4a4a4;
+    right: 0;
+    bottom: 100px;
+    display: flex;
 }
 
 .container3 {
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
     width: 30px;
     height: 66px;
-    margin-left: 1220px;
+    /* margin-left: 1220px; */
+    bottom: 100px;
     color: white;
     font-size: medium;
     background-color: #ff0000;
-    position: fixeds;
-    display: flex;
+    /* position: fixeds;
+    display: flex; */
   
    
 }
