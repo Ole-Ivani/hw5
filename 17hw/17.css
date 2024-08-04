@@ -26,6 +26,8 @@ body {
 
 .Women {
     display: flex;
+    color: black;
+   
 
 }
 
@@ -304,5 +306,19 @@ footer{
 
 
 
-
+@media (max-width: 900px)
+{
+    .Women2{
+        width: 20%;
+        display: none;
+    }
+    .Men{
+        width: 20%;
+        display: none;
+    }
+    .image5>.image2 .image3{
+      width: 10%;
+      height: 10%;
+    }
+}
 
