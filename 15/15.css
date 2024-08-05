@@ -8,15 +8,13 @@ body {
 }
 
 
-@media screen (max-width:900px) {
-
-}
 
 .bg-image {
     background-image: url(./15img/Rectangle\ 1.png);
-    width:  100%;
+    width:  120%;
     height:  auto;
     margin: 0 auto;
+    background-repeat: no-repeat;
 
 }
 
@@ -51,6 +49,8 @@ header {
     display: flex;
     align-items:normal;
     justify-content: space-between;
+    width: 90%;
+
 
 }
 .n{
