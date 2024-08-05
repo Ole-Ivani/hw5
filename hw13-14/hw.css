@@ -10,7 +10,14 @@ body {
     background-color: white;
     position: relative;
     padding-bottom: 45px;
+    margin: 0 auto;
 }
+main{
+    width: auto;
+ height: 700px;
+}
+
+
 
 body::after {
     content: "";
@@ -147,7 +154,7 @@ nav a.hover::after {
 }
 
 .image-block {
-    width: 25%;
+    width: 60%;
     
 }
 
@@ -158,16 +165,13 @@ nav a.hover::after {
 
 }
 
-.text-container {
-    width: 40%;
-   
-}
+
 
 .text-block {
-    /* width: 100%; */
+    width: 100%;
     padding-right: 180px;
 
-    padding-right: 30px;
+  
     margin-bottom: 32px;
     border-right: 1px solid #333;
 }
@@ -282,14 +286,14 @@ nav a.hover::after {
     display: none;
 }
 
-.social-link a:hover {
+.social-link :hover {
     background-color: #f2994A;
 
 }
 
-.social-link a:hover .social-link-img-hover {
+/* .social-link a:hover .social-link-img-hover {
     display: block;
-}
+} */
 
 .social-link a:hover .social-link-img {
     display: none;
