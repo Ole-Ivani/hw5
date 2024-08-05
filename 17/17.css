@@ -4,7 +4,7 @@
 
 body {
     font-family: "Montserrat", "sans-serif";
-    margin: 1% 1%;
+    margin: 0 autos;
 }
 
 main {
@@ -20,7 +20,7 @@ header {
 
     font-size: 24px;
     font-weight: 400;
-
+    justify-content: space-between;
     text-align: center;
 
 }
@@ -28,19 +28,19 @@ header {
 nav>a{
     color: rgb(0, 0, 0);
     text-decoration: none;
-    padding-left: 4px;
+    padding-left: 10px;
 
 }
 
-.Shoppy {
+.Shoppy2 {
     background-color: black;
     color: rgb(255, 255, 255);
     width: 100px;
     height: 30px;
-    margin: 0 5%;
+}
 
-
-
+.Shoppy1{
+    display: none;
 }
 
 .Search {
@@ -57,7 +57,7 @@ nav>a{
 
 .block {
  
-  margin-left: 40%;
+
 text-align: end;
 
 }
@@ -154,8 +154,8 @@ margin-top: 5%;
 
   
 }
-.container2{
-
+.not-none-image{
+overflow-x: scroll;
 }
 
 
@@ -214,7 +214,8 @@ margin-top: 5%;
     .position-container{
         display:inline-block;
         margin-left: 0%;
-       
+        overflow-y: auto;
+        overflow-x: hidden;      
 }
 
 .position-img{
@@ -259,15 +260,23 @@ footer{
 .container-text{
     display: inline-block;
  margin-left: 6%;
+ margin: 3%;
 }
 
-.container-text:last-child{
-   align-items: end;
+.container-text:nth-child(4){
+    margin-right: 28%;
+
 }
+
 
 .kolo{
 display: flex;
   
+}
+
+.block3{
+    margin-right: 35%;
+    
 }
 
 .kolo1{
@@ -331,6 +340,7 @@ margin-left: 2%;
     .hea{
        align-self: center;
        margin: 0 auto;
+       justify-content: space-between;
     }
    
     nav a{
@@ -349,16 +359,20 @@ margin-left: 2%;
     
     }
 
-    .Shoppy{
-        width: 220px ;
+    .Shoppy1{
+        display: block;
+        width: 200px ;
         height: 30px;
         text-align: center;
         align-items: center;
         margin-left: 5%;
+        background-color: black;
+        color: rgb(255, 255, 255);
        
-
     }
-
+    .Shoppy2{
+        display: none;
+    }
     .block{ 
         margin-left: 0%;
        margin-right: 0;
@@ -398,19 +412,25 @@ margin-left: 2%;
         margin-top: 2%;
     }
     
-    .container{
+    .block2{
         display: block;
+      
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
     }
 
    .container2
-    { 
+    {   margin-left: 15%; 
         height: 200px;
         width: 200px;
+        
       
     }
  
     .container4
-    { 
+    {    margin-left: 15%; 
         height: 200px;
         width: 200px;
        
@@ -433,6 +453,7 @@ margin-left: 2%;
     margin-top: 10%;
     margin-left: 1%;
     display: inline-block;
+    
    }
       .foto{
         width: 252px;
@@ -453,8 +474,13 @@ display: flex;
     .not-none-image{
         display: none;
     }  
-  
+  .container-text{
+    margin: 0 5% ;
 
+  }
+  .container-text:nth-child(4) {
+    margin-right: 0%;
+}
 
 }
  
