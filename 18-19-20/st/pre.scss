@@ -10,7 +10,7 @@ main{
     background-position: top 200px right -50px ;
 
     background-size: auto 70%;
-    height: 150vh;
+    height: 120vh;
   z-index: -1;
   margin: 0 0 ;
 }
@@ -19,6 +19,7 @@ body{
   width: auto;
   height: 900px;
   overflow: scroll;
+  margin: 0 0 ;
   }
 
 
@@ -38,17 +39,21 @@ nav{
    margin: 0 auto;
    justify-content: space-between;
    margin-bottom: 15%;
+   margin: 4% 2%;
+
 
 
    
     div>h1{
         color:$main-color-second ;
+      
      
     }
     div a{
         padding-left:  2rem;
        color: $color-third;
        text-decoration: none;
+       
      
       
     }
@@ -115,7 +120,7 @@ nav{
     .text-4{
       color: $color-third;
       margin: 0 auto;
-      margin-left: 18%;
+      margin-left: 25%;
   
     }
   }  
@@ -125,7 +130,7 @@ nav{
     display: flex; 
    border-radius: 15px 15px ;
    margin: 0 auto;
-    width: 90vw;
+    width: 55vw;
     height: 100px;
     margin-top: 5%;
     
@@ -185,7 +190,7 @@ nav{
   
 
 
- @media (max-width: 900px ){
+ @media (max-width: 1300px ){
   main{
     height: 87vw;
 
