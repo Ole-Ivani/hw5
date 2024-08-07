@@ -156,6 +156,7 @@ margin-top: 5%;
 }
 .not-none-image{
 overflow-x: scroll;
+
 }
 
 
@@ -198,7 +199,7 @@ overflow-x: scroll;
 
   
     .container5{
-        display: flexbox ;
+        display: flex ;
         margin-left: 1%;
       
     }
@@ -212,7 +213,8 @@ overflow-x: scroll;
     }
 
     .position-container{
-        display:inline-block;
+  
+     display: inline-block;
         margin-left: 0%;
         overflow-y: auto;
         overflow-x: hidden;      
