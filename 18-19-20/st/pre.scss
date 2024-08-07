@@ -10,7 +10,7 @@ main{
     background-position: top 200px right -50px ;
 
     background-size: auto 70%;
-    height: 120vh;
+    height: 150vh;
   z-index: -1;
   margin: 0 0 ;
 }
@@ -95,7 +95,8 @@ nav{
    
 
    
-}.text1{
+}
+.text1{
     font-size: $base-font-size;
     color: $color-third;
     text-wrap: wrap;
@@ -115,26 +116,26 @@ nav{
 
 
   .container-content{
-    margin-top: 20%;
+    margin-top: 15%;
 
     .text-4{
       color: $color-third;
       margin: 0 auto;
-      margin-left: 25%;
+      margin-left: 16%;
   
     }
   }  
-.inp{
-   background-color: $BG-color;
-    align-items: center;
-    display: flex; 
-   border-radius: 15px 15px ;
-   margin: 0 auto;
-    width: 55vw;
-    height: 100px;
-    margin-top: 5%;
-    
-
+  .inp{
+    background-color: $BG-color;
+     align-items: center;
+     display: flex; 
+    border-radius: 15px 15px ;
+    margin: 0 auto;
+     width: 70vw;
+     height: 120px;
+     margin-top: 1%;
+     
+  
 
     .container{
     background-color: transparent;
@@ -143,9 +144,13 @@ nav{
     border-right: none;
     border-bottom: 1px solid $main-color;
    font-size: $base-font-size ;
+   color: $main-color;
+     margin-left: 2rem;
+
+
 
        
-  
+    
      
    }
    input::placeholder{
@@ -154,15 +159,21 @@ nav{
    }   select{
     color: $main-color;
    border: none;
-   background-color: transparent;   }
+   background-color: transparent; 
+ padding-top: 4%;
+ margin-left: -25%;  }
 
 
   button{
-  background-color: $main-color-second;
-  border: none;
-  font-size: $base-font-size;
-  margin-left: 5%;
-  color: $main-color; 
+    background-color: #bc436a;
+    border: none;
+    font-size: 1.125rem;
+
+    color: #fff;
+    width: 140px;
+    height: 55px;
+    border-radius: 5px;
+}
 
  } 
 
@@ -171,9 +182,8 @@ nav{
  }
 .text-4{
   color: $color-third;
+ 
 }
-
- }    
 
 
  footer{
@@ -206,7 +216,7 @@ nav{
   }
   .inp {
     width: 45vw;
-    height: 200px;
+    height: 240px;
     display: grid;
 }
 
@@ -218,6 +228,12 @@ nav{
 .container-content .text-4 {
 
   margin-left: 36%;
+}
+
+select{
+  padding-right: 20%;
+  padding-bottom: 4%;
+
 }
  }
 
@@ -249,13 +265,13 @@ nav{
  }
 
  .inp {
-  width: 60vw;
+  width: 70vw;
 
 }
 
 
   .inp button {
-      margin-left: 15%;
+      margin-left: 25%;
   }
 
 
@@ -266,6 +282,10 @@ nav{
 
   .container-content {
     margin-top: 40%;
+}
+
+select{
+  margin-left: -7%;
 }
 }
 
