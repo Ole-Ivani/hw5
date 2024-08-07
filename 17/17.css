@@ -156,11 +156,16 @@ margin-top: 5%;
 }
 .not-none-image{
 overflow-x: scroll;
+overflow-y: auto;
+
 
 }
 
 
+.container5{
+    overflow-x: scroll;
 
+}
 
 
 
@@ -198,34 +203,25 @@ overflow-x: scroll;
 }
 
   
-    .container5{
-        display: flex ;
-        margin-left: 1%;
-      
+
+    .image-block{
+        display:  flex ;
+        overflow-x: scroll;
+        overflow-y: auto;
     }
     .name{
     text-align: left;
     color: black;
     text-decoration: none;
-   
-  
 
     }
 
-    .position-container{
-  
-     display: inline-block;
-        margin-left: 0%;
-        overflow-y: auto;
-        overflow-x: hidden;      
+
+.position-container{
+    margin-left: 1%;    
+ 
 }
 
-.position-img{
-    width: 160px;
-    height: 255px;
-    display: flex;
-   
-}
 
 .text-container{
     text-align: center;
