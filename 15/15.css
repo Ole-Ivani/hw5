@@ -217,11 +217,11 @@ p:nth-child(1) {
     width: 342px;
     color: #ffffff;
     margin-top: 40px;
-    margin-left: 30px;
+    margin-left: 80px;
 }
 
 .img3 {
-    margin-top: 30px;
+  
     margin-left: 30px;
 
 }
@@ -239,6 +239,7 @@ p:nth-child(1) {
     height: 30px;
     margin-top: 0px;
     margin-left: 950px;
+    margin-bottom: 10px;
 }
 
 .image4:hover{
@@ -253,6 +254,7 @@ p:nth-child(1) {
     border-radius: 100%;
     width: 30px;
     height: 30px;
+    margin-bottom: 10px;
 }
 
 .image5:hover{
