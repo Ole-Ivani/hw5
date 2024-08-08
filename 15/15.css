@@ -11,7 +11,7 @@ body {
 
 .bg-image {
     background-image: url(./15img/Rectangle\ 1.png);
-    width:  120%;
+    width:  100%;
     height:  auto;
     margin: 0 auto;
     background-repeat: no-repeat;
@@ -54,6 +54,7 @@ header {
     justify-content: space-between;
     width: 90%;
     padding-top: 20px;
+    margin: 0 auto;
 
 
 }
@@ -217,12 +218,21 @@ p:nth-child(1) {
     width: 342px;
     color: #ffffff;
     margin-top: 40px;
-    margin-left: 80px;
+    margin-left: 30px;
 }
-
+.slill-item{
+    display: flex;
+}
 .img3 {
   
     margin-left: 30px;
+
+}
+
+.button2{
+    display: flex;
+    margin-top: 45px;
+    margin-left: 510px;
 
 }
 
@@ -230,16 +240,23 @@ p:nth-child(1) {
     padding-left: 50px;
 }
 
+.img4:nth-child(1){
+    padding-left: 0px;
+}
+
 .image4 {
-    border: 1px solid rgb(128, 128, 128);
+   
     color: rgb(154, 154, 154);
     background-color: transparent;
     border-radius: 100%;
-    width: 30px;
-    height: 30px;
-    margin-top: 0px;
-    margin-left: 950px;
+    padding-left: 1%;
     margin-bottom: 10px;
+    width: 38px;
+height: 38px;
+border: 1.42px solid rgba(167, 166, 166, 1)
+
+
+
 }
 
 .image4:hover{
@@ -248,13 +265,15 @@ p:nth-child(1) {
 
 
 .image5 {
-    border: 1px solid rgb(255, 255, 255);
+    border: 1.54px solid rgba(255, 255, 255, 1);
     color: rgb(255, 255, 255);
     background-color: transparent;
     border-radius: 100%;
-    width: 30px;
-    height: 30px;
-    margin-bottom: 10px;
+    margin-top: -1px;
+    margin-left: 5px;
+    width: 41px;
+    height: 41px;
+    text-align: center;
 }
 
 .image5:hover{
