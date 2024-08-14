@@ -1,0 +1,145 @@
+header{
+    background-color:#668e68 ;
+  color: white;
+
+}
+.container-fluid{
+    font-family: "Noto Serif Georgian", serif;
+
+}
+
+
+
+body {
+//   font-family: "Noto Serif Georgian", serif;
+     overflow-x: hidden;
+     font-family: "Shadows Into Light", cursive; 
+}
+
+    .top-bg-section{
+    background-image: url(./25img/coffee1.png);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    h1{
+        font-family: Shadows Into Light;
+font-size: 110px;
+font-weight: 400;
+line-height: 176.71px;
+text-align: center;
+color: white;
+
+    }
+}
+.butt{
+    width: 30px;
+    background-color: #668e68;
+    color: rgb(255, 255, 255);
+    width: 160px;
+    height: 40px;
+    gap: 0px;
+
+    border-radius: 20px 20px ;
+justify-content: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 25.63px;
+border: none;
+
+}
+.butt:hover{
+  
+    box-shadow: 0 8px 10px #00ff11;;
+    top: -5px;
+}
+.text-center{
+
+font-size: 40px;
+font-weight: 400;
+line-height: 35px;
+text-align: center;
+ 
+}
+.bg-imge{
+    background-image: url(./25img/cafe1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    color: rgb(255, 255, 255);
+    margin-top: 60px;
+  
+    h4,h5{
+     padding-top: 120px;
+    font-size: 40px;
+    font-weight: 400;
+     line-height: 35px;
+    }
+    h5{
+        padding-top: 10px;
+    }
+  p{
+
+font-size: 20px;
+font-weight: 500;
+line-height: 26px;
+padding-top: 32px;
+padding-bottom: 40px;
+
+
+  }
+}
+.bottom{
+background-color:  rgba(129, 97, 59, 0.2);
+ .all{
+    background-color: white;
+    height:  (102px)px;
+top: 224px;
+left: 405px;
+padding: 20px 0px 0px 0px;
+gap: 10px;
+border: 1px solid rgba(102, 142, 104, 1);
+
+ }
+
+
+h4{font-size: 40px;
+font-weight: 400;
+line-height: 35px;
+text-align: center;}
+
+
+p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.63px;
+    text-align: left;
+}
+}
+footer{
+    background-color: black;
+    color: white;
+    font-family: "Noto Serif Georgian";
+
+font-size: 14px;
+font-weight: 500;
+line-height: 25px;
+
+
+}
+.btn{
+    background-color:rgba(102, 142, 104, 1);
+    ;
+    position: fixed;
+    border-radius: 100%;
+    border: none;
+    margin-top: -90px; padding-bottom: 40px;
+    height: 32px;
+    margin-left: 1250px;
+    right: 0;
+    bottom: 20px;
+}
+.btn:hover{
+    background-color: transparent;
+}
+
